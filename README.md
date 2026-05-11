@@ -32,6 +32,7 @@ The project implements user registration, login authentication, role-based autho
 | Flasgger | Swagger/OpenAPI Documentation |
 | Werkzeug | Password Hashing |
 | Thunder Client / Postman | API Testing |
+| Gunicorn | Production WSGI Server for Deployment |
 
 ---
 

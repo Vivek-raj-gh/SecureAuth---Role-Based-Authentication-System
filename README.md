@@ -177,6 +177,12 @@ Authorization: Bearer YOUR_TOKEN
 
 ---
 
+# 🚀 Deployment
+
+- Render: https://secureauth-api-f1l3.onrender.com/apidocs
+
+---
+
 # 👨‍💻 Author
 
 **Vivek Vardhan Saraswathi**

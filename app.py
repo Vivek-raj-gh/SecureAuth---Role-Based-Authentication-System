@@ -6,6 +6,7 @@ from models.user_model import db
 from routes.auth_routes import auth_bp
 
 import config
+import os
 
 app = Flask(__name__)
 
@@ -54,4 +55,7 @@ with app.app_context():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
 
-    app.run(host = "0.0.0.0", port = port, debug = False)
+    app.run(
+        host="0.0.0.0",
+        port=port
+    )
